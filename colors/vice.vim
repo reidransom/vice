@@ -70,25 +70,6 @@ endfunction
 " --------
 
 
-" let s:white       = { 'gui': '#FAFAFA', 'cterm': '15' }
-" let s:black       = { 'gui': '#181818', 'cterm': '0' }
-" let s:lightblack  = { 'gui': '#262626', 'cterm': '235' }
-" let s:lightblack2 = { 'gui': '#303030', 'cterm': '236' }
-" let s:darkblack   = { 'gui': '#121212', 'cterm': '233' }
-" let s:grey        = { 'gui': '#747474', 'cterm': '243' }
-" let s:lightgrey   = { 'gui': '#8D8D8D', 'cterm': '245' }
-" let s:darkgrey    = { 'gui': '#676767', 'cterm': '241' }
-" let s:warmgrey    = { 'gui': '#75715E', 'cterm': '59' }
-
-" let s:black         = { 'gui': '#181818', 'cterm': '0' }
-" let s:darkgray1     = { 'gui': '#212121', 'cterm': '8' }
-" let s:darkgray2     = { 'gui': '#3E3E3E', 'cterm': '10' }
-" let s:gray1         = { 'gui': '#696969', 'cterm': '11' }
-" let s:gray2         = { 'gui': '#969696', 'cterm': '12' }
-" let s:lightgray1    = { 'gui': '#C7C7C7', 'cterm': '14' }
-" let s:lightgray2    = { 'gui': '#EDEDED', 'cterm': '7' }
-" let s:white         = { 'gui': '#FAFAFA', 'cterm': '15' }
-
 let s:black         = { 'gui': '#18191F', 'cterm': '0' }
 let s:darkgray1     = { 'gui': '#212228', 'cterm': '8' }
 let s:darkgray2     = { 'gui': '#3E3F45', 'cterm': '10' }
@@ -189,7 +170,7 @@ call s:h("PmenuThumb",    { "fg": s:darkgray1, "bg": s:gray1 })
 " ===========================
 
 "        *Comment         any comment
-call s:h("Comment",       { "fg": s:gray1, "format": "italic" })
+call s:h("Comment",       { "fg": s:blue, "format": "italic" })
 
 " Constant
 " --------
